@@ -12,11 +12,11 @@ const headers = {
     'Access-Control-Allow-Origin': '*',
     'Cache-Control': 'no-cache, no-store, must-revalidate',
     'Content-Type': 'application/json; charset=utf-8',
-    'Open-Source': 'https://github.com/cachecleanerjeet/jiosaavnapi'
+    'Open-Source': 'https://github.com/naseef1235/jiosaavnapi'
 }
 
 app.get('/', (req, res) => {
-    res.send(`Server is Running<br><br>Api Documentation <a href="https://github.com/cachecleanerjeet/jiosaavnapi#readme">Here</a>.<br><br>An Open Source Project by <a href="https://tu.hin.life">Tuhin</a>.`)
+    res.send(`Server is Running<br><br>Api Documentation <a href="https://github.com/naseef1235/jiosaavnapi#readme">Here</a>.<br><br>An Open Source Project by <a href="https://telegram.dog/CFCHHART">Naseef</a>.`)
 })
 
 // search a song
